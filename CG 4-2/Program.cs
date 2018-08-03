@@ -6,7 +6,13 @@ namespace CG_4_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string [] value = new string [] { 1, 1, 2, 3, 5, 8 };
+            foreach (string values in value)
+            {
+                Console.WriteLine(values);
+            }
+
+            Console.ReadLine();
         }
     }
 }
