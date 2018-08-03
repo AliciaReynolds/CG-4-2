@@ -21,7 +21,7 @@ namespace CG_4_2
                 Console.WriteLine(values);
             }
 
-            Console.Readline();
+            Console.ReadLine();
 
         }
     }
